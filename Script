@@ -1,5 +1,8 @@
-if game.PlaceId == 537413528 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/UwUndetectable/Undetectable/BABFT/Script"))()
-elseif game.PlaceId == 2882332175 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/UwUndetectable/Undetectable/BDFES/Script"))()
+function furry_bad(a,b)chars="1234567890!@#$%^&*()qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM ,<.>/?;:'[{]}\|`~"newcode=""for c=1,999 do if string.sub(a,c,c)==""then break else com=string.sub(a,c,c)end;for d=1,90 do cur=string.sub(chars,d,d)if com==cur then new=d-b;while new<0 do new=new+90 end;newcode=""..newcode..""..string.sub(chars,new,new)..""end end end;return newcode end
+if messagebox(furry_bad("Epizf,upi,zolr,yp,zpsf,Imfryrvysnzr,;", 1^(8/(1*(2*2)))).."\n"..furry_bad("Nu,zpsfomh,oy<,upi,shtrr,yjsy,er,strm[y,trdapmdonzr,og,upi,hry,nsmmrf".."\n", 1^(8/(1*(2/(1+0.5))))), furry_bad("W@$^67", 1+(0.5/0.25)*9^2), 4) == 6 then
+	if game.PlaceId == 537413528 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UwUndetectable/Undetectable/BABFT/Script"))()
+	elseif game.PlaceId == 2882332175 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UwUndetectable/Undetectable/BDFES/Script"))()
+	end
 end
